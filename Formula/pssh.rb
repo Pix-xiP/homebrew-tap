@@ -16,4 +16,3 @@ class Pssh < Formula
     assert_match version.to_s, shell_output("#{bin}/pssh version")
   end
 end
-
