@@ -16,7 +16,7 @@ class Weave < Formula
     assert_match version.to_s, shell_output("#{bin}/weave version")
   end
 
-  caveats do
+  def caveats 
     <<~EOS
       To use weave, you need a valid `Weavefile.lua` in you current directory.
     EOS
